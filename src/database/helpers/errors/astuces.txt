@@ -1,0 +1,5 @@
+CREATE DATABASE monagence WITH ENCODING 'UTF8' ;
+
+npx sequelize-cli db:migrate:undo pour supprimer les migrations
+ npx sequelize-cli db:seed:all pour envoyer tous les seeds en bdd
+ npx sequelize-cli db:migrate pour faire la migrations
