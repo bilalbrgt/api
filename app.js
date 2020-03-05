@@ -6,7 +6,9 @@ app.use(cors());
 app.use(morgan("dev"));
 const route = require("./src/routes");
 
+app.use(express.static('assets'));
+
 app.use("/api", route);
 app.listen(8080, function() {
-  console.log("listen on port 8000");
+  console.log("listen on port 8080");
 });

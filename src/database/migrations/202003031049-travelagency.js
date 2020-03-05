@@ -17,7 +17,7 @@ module.exports = {
       },
       image: {
         allowNull: false,
-        type: Sequelize.CHAR(50)
+        type: Sequelize.CHAR(600)
       },
       prix: {
         allowNull: false,
