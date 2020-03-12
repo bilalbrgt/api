@@ -10,14 +10,11 @@ app.use(morgan("dev"));
 const route = require("./src/routes");
 
 app.use(express.static("assets"));
+app.use(bodyParser.json());
 
 app.use("/api", route);
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+//app.use(bodyParser.urlencoded({ extended: false }));//
 
-app.post("/api/form", (req, res) => {
-  console.log(req.body);
-});
 app.listen(8080, function() {
   console.log("listen on port 8080");
 
@@ -40,11 +37,12 @@ app.listen(8080, function() {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: " <foo@example.com>", // sender address
-      to: "desiree.mohr@ethereal.email", // list of receivers
+      from: "boujemaouibilel@gmail.com", // sender address
+      to: "desiree.mohr@ethereal.email",
+      replyTo: "boujemaoui@gmail.com", // list of receivers
       subject: "Hello ✔", // Subject line
       text: "yoo", // plain text body
-      html: "yoo" // html body
+      html: "sava" // html body
     });
 
     console.log("Message sent: %s", info.messageId);
