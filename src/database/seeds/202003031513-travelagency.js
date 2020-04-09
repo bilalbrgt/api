@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     id: uuid(),
-    titre: "  Péerou ",
+    titre: " Pérou ",
     lieu: "",
     image:
       "https://firebasestorage.googleapis.com/v0/b/travelagency-e6d12.appspot.com/o/quentin-dang-GF5SR2ETysg-unsplash.jpg?alt=media&token=b9c8167b-1b9f-4439-bc5f-223b3da7885c",
@@ -85,11 +85,11 @@ module.exports = [
   },
   {
     id: uuid(),
-    titre: "Gréce",
+    titre: "Texas",
     lieu: "casablanca",
     image:
       "https://firebasestorage.googleapis.com/v0/b/travelagency-e6d12.appspot.com/o/drif-riadh-YpkuRn54y4w-unsplash-compressor.jpg?alt=media&token=f6426ccb-d2ae-4a13-b002-7d20826e327d",
-    prix: 165,
+    prix: 750,
     descriptions: " yooo",
     created_at: now,
     updated_at: now,
