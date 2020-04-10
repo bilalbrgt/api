@@ -28,7 +28,7 @@ module.exports = [
   },
   {
     id: uuid(),
-    titre: "thaiti",
+    titre: "Thaiti",
     lieu: "",
     image:
       "https://firebasestorage.googleapis.com/v0/b/travelagency-e6d12.appspot.com/o/sara-dubler-Koei_7yYtIo-unsplash-compressor.jpg?alt=media&token=eda834b3-23cf-484e-81c1-a2459d462c7a",
@@ -51,7 +51,7 @@ module.exports = [
 
   {
     id: uuid(),
-    titre: "mexique",
+    titre: "Mexique",
     lieu: "",
     image:
       "https://firebasestorage.googleapis.com/v0/b/travelagency-e6d12.appspot.com/o/harry-cunningham-N4bOFvyrXgo-unsplash-compressor.jpg?alt=media&token=cc13efff-f8a8-48fc-870e-4c0ff5a9df16",
