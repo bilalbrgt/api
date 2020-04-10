@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     id: uuid(),
-    titre: " Pérou ",
+    titre: " Maldives ",
     lieu: "",
     image:
       "https://firebasestorage.googleapis.com/v0/b/travelagency-e6d12.appspot.com/o/quentin-dang-GF5SR2ETysg-unsplash.jpg?alt=media&token=b9c8167b-1b9f-4439-bc5f-223b3da7885c",
@@ -48,7 +48,7 @@ module.exports = [
     created_at: now,
     updated_at: now,
   },
- 
+
   {
     id: uuid(),
     titre: "mexique",
