@@ -18,19 +18,19 @@ async function sendEmail(data) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "bouakimjawed@gmail.com",
-      pass: "brgt93350lol"
-    }
+      user: "travelagencyfr@gmail.com",
+      pass: "brgt93350lol",
+    },
   });
 
   // send mail with defined transport object
   const info = await transporter.sendMail({
     from: data.email, // sender address
-    to: "bouakimjawed@gmail.com",
+    to: "travelagencyfr@gmail.com",
     replyTo: data.email, // list of receivers
     subject: data.name, // Subject line
     text: data.message, // plain text body
-    html: data.message // html body
+    html: data.message, // html body
   });
 
   console.log("Message sent: %s", info.messageId);
